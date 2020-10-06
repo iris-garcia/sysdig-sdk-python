@@ -195,6 +195,7 @@ class _SdcCommon(object):
                             if c['name'] == ch.get('name'):
                                 found = True
                                 ids.append(ch['id'])
+
                     elif c['type'] == 'OPSGENIE':
                         if 'name' in c:
                             if c['name'] == ch.get('name'):
